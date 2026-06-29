@@ -1,0 +1,20 @@
+\begin{table*}[t]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lrrrrrrrr@{}}
+        \toprule
+        \textbf{Condition} & \textbf{$n$} & \textbf{Novelty} & \textbf{Feas.} & \textbf{Spec.} & \textbf{Ground.} & \textbf{Overall} & \textbf{Nov.$\times$Feas.} & \textbf{Prior Overlap} \\
+        \midrule
+        \ungrounded & 12 & {\bf 3.75} & 3.92 & {\bf 3.92} & 3.92 & 3.92 & {\bf 14.67} & {\bf 0.043} \\
+        \deduction & 12 & 3.50 & 3.83 & 3.67 & 4.00 & 3.75 & 13.33 & 0.077 \\
+        \induction & 12 & 3.42 & {\bf 4.00} & 3.75 & 4.00 & 3.75 & 13.67 & 0.092 \\
+        \proposal & 12 & 3.58 & 3.92 & {\bf 3.92} & 4.00 & 3.92 & 14.00 & 0.073 \\
+        \outcome & 12 & 3.50 & {\bf 4.00} & 3.75 & 4.00 & 3.83 & 14.00 & 0.059 \\
+        \smallexperiment & 12 & 3.33 & {\bf 4.00} & 3.58 & 4.00 & 3.58 & 13.33 & 0.065 \\
+        \litcompare & 12 & {\bf 3.75} & 3.83 & 3.75 & {\bf 4.08} & {\bf 4.00} & 14.33 & 0.106 \\
+        \bottomrule
+    \end{tabular}
+    }
+    \caption{Mean scores by condition. Judged scores are on a 1--5 scale. Higher is better except prior-work overlap, where lower means less lexical reuse from prior-work titles. Best values are in \textbf{bold}.}
+    \label{tab:main_scores}
+\end{table*}

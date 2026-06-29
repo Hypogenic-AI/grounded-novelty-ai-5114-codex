@@ -1,0 +1,14 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\para{What grounding changed.} The experiment does not support the strongest version of the hypothesis. Prompt-level grounding did not significantly improve judged novelty, feasibility, specificity, overall quality, quality mean, or \nfprod. It did reliably increase lexical overlap with prior-work titles. This means the prompts made ideas more visibly connected to the supplied literature, but not reliably better under the judging rubric.
+
+\para{Why this matters.} Literature connection is not the same as scientific novelty. In scientific ideation, a model can sound more situated by reusing terms from retrieved titles. That behavior may help readers see the local research area, but it can also narrow the model's search around the retrieved literature. The \litcompare condition illustrates both sides: it has the highest mean overall score, but also the highest prior-work overlap and no reliable gain over \ungrounded.
+
+\para{Why the small experiment failed.} The \smallexperiment condition used a real audit, but the audit was shallow. It counted title terms and missing evaluation cues rather than executing code, testing claims, or checking full-paper evidence. The condition's weak novelty and overall scores suggest that ``small experiment'' prompts help only when the experiment produces information that changes the idea, not when it merely decorates the prompt with empirical language.
+
+\para{Implications for ideation systems.} These results point to stronger mechanisms than prompt wording alone. A grounded ideation system should control retrieval quality, compare ideas against full abstracts or paper sections, penalize direct recombination, generate multiple diverse candidates, and calibrate automatic judges against human labels or benchmarks such as \rinobench. For high-value ideas, the system should also run partial execution checks or small validation experiments rather than relying on textual feasibility.
+
+\para{Limitations.} This is a compact pilot with 12 contexts and one idea per condition per context. The judge uses coarse integer scores, producing ceiling effects around 3--4. The evaluation relies on an LLM judge, although the judge model differs from the generator. Prior-work grounding uses titles rather than full paper text, citation graphs, or expert-curated related work. The overlap metric is lexical and cannot distinguish useful technical reuse from copying. Finally, the ideas are not executed, so feasibility may be overestimated.
+
+\para{Broader impact.} Automated ideation tools can help researchers explore directions faster, but they can also create overconfident proposals that appear literature-aware without being genuinely novel. We therefore view grounded generation as a tool for candidate exploration, not as a replacement for expert literature review, execution, or peer evaluation.

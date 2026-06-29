@@ -1,0 +1,85 @@
+%%%%% PROJECT-SPECIFIC MACROS %%%%%
+% Define your project-specific terms here
+% Import with: \input{commands/macros}
+%
+% INSTRUCTIONS:
+% 1. Use \textsc{} for method/dataset/model names (small caps)
+% 2. Add \xspace at the end for automatic spacing
+% 3. Group related terms together
+% 4. Use consistent naming conventions
+
+\usepackage{xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% METHOD NAMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\groundednovelty}{\textsc{Grounded Novelty}\xspace}
+\newcommand{\ungrounded}{\textsc{Ungrounded}\xspace}
+\newcommand{\deduction}{\textsc{Deduction}\xspace}
+\newcommand{\induction}{\textsc{Induction}\xspace}
+\newcommand{\proposal}{\textsc{Proposal}\xspace}
+\newcommand{\outcome}{\textsc{Outcome Imagination}\xspace}
+\newcommand{\smallexperiment}{\textsc{Small Experiment}\xspace}
+\newcommand{\litcompare}{\textsc{Literature Comparison}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DATASET NAMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\aibidea}{\textsc{AI Idea Bench 2025}\xspace}
+\newcommand{\rinobench}{\textsc{RINoBench}\xspace}
+\newcommand{\ideabench}{\textsc{IdeaBench}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MODEL NAMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% LLM and model names
+\newcommand{\gptmini}{\textsc{GPT-4.1-mini}\xspace}
+\newcommand{\geminiflash}{\textsc{Gemini-2.5-Flash}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BASELINE NAMES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Baseline method names
+\newcommand{\baseline}{\ungrounded}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABBREVIATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Common abbreviations used in your paper
+\newcommand{\ie}{i.e.,\xspace}
+\newcommand{\eg}{e.g.,\xspace}
+\newcommand{\wrt}{w.r.t.\xspace}
+\newcommand{\nfprod}{novelty--feasibility product\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DOMAIN-SPECIFIC TERMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Terms specific to your research domain
+% Keep consistent formatting throughout the paper
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% USAGE EXAMPLES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% GOOD:
+%   \newcommand{\hypogenic}{\textsc{HypoGeniC}\xspace}
+%   Usage: "We propose \hypogenic to generate hypotheses."
+%   Result: "We propose HypoGeniC to generate hypotheses."
+%
+% GOOD:
+%   \newcommand{\ours}{{\bf HypoGeniC}\xspace}
+%   Usage: "Our method, \ours, outperforms baselines."
+%   Result: "Our method, HypoGeniC, outperforms baselines."
+%
+% BAD (no \xspace):
+%   \newcommand{\hypogenic}{\textsc{HypoGeniC}}
+%   Usage: "\hypogenic outperforms..."
+%   Result: "HypoGeniCoutperforms..." (missing space!)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

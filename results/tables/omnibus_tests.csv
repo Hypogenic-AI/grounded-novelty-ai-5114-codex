@@ -1,0 +1,9 @@
+metric,test,n_contexts,conditions,statistic,p_value
+novelty,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",8.603773584905662,0.19711812848773447
+feasibility,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",7.285714285714284,0.2952308197313745
+specificity,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",6.585365853658536,0.3608980631849432
+grounding,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",3.818181818181817,0.7012654998200851
+overall,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",9.315789473684209,0.15658165209562727
+quality_mean,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",8.437869822485153,0.20774603223897878
+novelty_feasibility_product,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",4.779661016949153,0.5723679433521087
+prior_overlap_fraction,Friedman,12,"ungrounded,deduction,induction,proposal,outcome_imagination,small_experiment,literature_comparison",53.21428571428572,1.0622996998593097e-09

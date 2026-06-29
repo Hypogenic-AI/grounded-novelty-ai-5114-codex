@@ -1,0 +1,18 @@
+\section{Methodology}
+\label{sec:methodology}
+
+\para{Problem setup.} Let $c_i$ be an AI research context and $k$ be a prompt condition. A generator model produces one idea $y_{ik}$ for every pair $(c_i,k)$. We then score each idea with a judge model and compute automatic metrics from the idea text and the context's prior-work titles. Because every context receives every condition, all comparisons are paired by context.
+
+\para{Data.} We sample 12 contexts from the local \aibidea test split with seed 42. Each context contains a broad revised topic, keywords, and prior-work titles. The generator sees the topic and keywords in every condition and sees prior-work titles only when the prompt condition requires them. We hide target paper names, target methods, target motivations, and target summaries from the generator.
+
+\para{Prompt conditions.} \Tabref{tab:prompt_conditions} lists the seven matched conditions. The primary baseline is \ungrounded, which asks directly for a novel idea from the topic and keywords. The six grounded conditions add one operation while keeping the topic distribution, generator, temperature, and output requirements fixed.
+
+\input{tables/prompt_conditions}
+
+\para{Generation and judging.} We use \gptmini as the generation model through OpenRouter chat completions \citep{openrouter2026api}. Generation temperature is 0.7. We use \geminiflash as the independent judge at temperature 0.0. The raw generations and evaluations are saved in \texttt{results/model\_outputs/generations.jsonl} and \texttt{results/model\_outputs/evaluations.jsonl}. The experiment generates 84 complete idea/evaluation pairs across 12 contexts and 7 conditions.
+
+\para{Judged metrics.} The judge scores each idea from 1 to 5 on novelty, feasibility, specificity, grounding, risk awareness, and overall quality. Novelty measures conceptual distance from prior work; feasibility measures whether the study is executable with plausible data, baselines, and resources; specificity measures concrete method and evaluation detail; grounding measures whether the idea uses evidence or constraints without merely copying prior work; and overall measures scientific promise. We define quality mean as the mean of novelty, feasibility, specificity, grounding, and overall. We also report the \nfprod, novelty $\times$ feasibility, on a 1--25 scale.
+
+\para{Automatic metrics.} We compute prior-work overlap as the fraction of generated content terms that also appear in the context's prior-work titles. This metric is intentionally simple: it measures visible lexical connection to the provided titles, not semantic copying. We also compute a within-condition diversity score as mean pairwise TF-IDF cosine distance among ideas in the same condition.
+
+\para{Statistical analysis.} We use Friedman tests for omnibus condition effects because each context appears under every condition. For pairwise comparisons, we compare each grounded condition against \ungrounded with Wilcoxon signed-rank tests and Holm correction. We report paired Cohen's $d$ as an effect size and bootstrap 95\% confidence intervals for condition means. We interpret statistical tests cautiously because this is a compact pilot with $n=12$ contexts.

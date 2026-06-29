@@ -1,0 +1,22 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Scientific idea generation is useful only when ideas are both new and executable. Large language models (LLMs) can produce fluent research proposals, name plausible datasets, and write convincing novelty claims. This fluency creates a practical problem: a generated idea can look grounded in a field while still being a close recombination of prior work or too underspecified to run.
+
+Recent systems therefore move beyond direct brainstorming. They retrieve related papers, compare candidate ideas against prior work, organize literature trajectories, rank proposals, or even execute experiments \citep{wang2024scimon,baek2024researchagent,wang2024scipip,li2024chain,lu2024aiscientist}. This shift is important, but it leaves a simple controlled question open. If we hold the topics, generator, judge, and evaluation rubric fixed, do different grounding operations improve generated scientific ideas over a direct prompt for novelty?
+
+\para{Our main question.} We ask whether LLM-generated scientific ideas improve when novelty is grounded through explicit reasoning operations or evidence. We focus on six prompt-level grounding operations: deduction from prior-work titles, induction from apparent title trends, compact proposal writing, imagined positive and negative outcomes, a small empirical audit over prior-work title terms, and explicit literature comparison. We compare all six against an \ungrounded baseline that receives only a topic and keywords.
+
+We run a matched pilot on 12 \aibidea contexts \citep{qiu2025aiideabench}. For each context and condition, \gptmini generates one idea through OpenRouter \citep{openrouter2026api}. A different model, \geminiflash, judges every idea on novelty, feasibility, specificity, grounding, risk awareness, and overall quality. We complement these judged scores with a lexical prior-work overlap metric and within-condition TF-IDF diversity.
+
+The main finding is cautionary. \litcompare obtains the highest mean overall score, 4.00 compared with 3.92 for \ungrounded, but this difference is tiny and not statistically reliable. Across all seven conditions, no judged quality metric has a significant Friedman omnibus effect: overall quality has $p=0.157$, quality mean has $p=0.208$, and \nfprod has $p=0.572$. The strongest reliable effect is lexical: all grounded conditions increase prior-work overlap relative to \ungrounded after Holm correction, and \litcompare has the largest increase ($+0.063$, paired Cohen's $d=2.84$, Holm $p=0.0029$).
+
+In summary, our main contributions are:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We conduct a matched comparison of six prompt-level grounding operations against an \ungrounded novelty baseline on identical AI research contexts.
+    \item We evaluate generated ideas with an independent LLM judge and automatic metrics for prior-work overlap and diversity.
+    \item We show that simple grounding increases visible connection to prior-work titles but does not significantly improve judged novelty, feasibility, specificity, overall quality, or \nfprod in this pilot.
+    \item We identify practical design implications for future ideation systems: stronger retrieval, anti-copying objectives, candidate diversification, human calibration, and execution feedback.
+\end{itemize}
+
+\Secref{sec:related_work} reviews LLM scientific ideation and novelty evaluation. \Secref{sec:methodology} describes the matched experimental design. \Secref{sec:results} reports the quantitative results. \Secref{sec:discussion} interprets the findings, and \secref{sec:conclusion} summarizes next steps.

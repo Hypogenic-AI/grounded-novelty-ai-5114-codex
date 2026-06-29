@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/grounded-novelty-ai-5114-codex/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/grounded-novelty-ai-5114-codex/literature_review.md",
+        "resources_catalog": "/workspaces/grounded-novelty-ai-5114-codex/resources.md",
+        "papers_dir": "/workspaces/grounded-novelty-ai-5114-codex/papers",
+        "datasets_dir": "/workspaces/grounded-novelty-ai-5114-codex/datasets",
+        "code_dir": "/workspaces/grounded-novelty-ai-5114-codex/code"
+      },
+      "log_file": "/workspaces/grounded-novelty-ai-5114-codex/logs/resource_finder_codex.log",
+      "transcript_file": "/workspaces/grounded-novelty-ai-5114-codex/logs/resource_finder_codex_transcript.jsonl",
+      "elapsed_time": 1069.8249413967133
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1529.5325338840485,
+      "log_file": "/workspaces/grounded-novelty-ai-5114-codex/logs/execution_codex.log",
+      "transcript_file": "/workspaces/grounded-novelty-ai-5114-codex/logs/execution_codex_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/grounded-novelty-ai-5114-codex"
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}llp{8.6cm}@{}}
+        \toprule
+        \textbf{Condition} & \textbf{Role} & \textbf{Prompt operation} \\
+        \midrule
+        \ungrounded & Baseline & Generate a novel AI research idea from the broad topic and keywords only. \\
+        \deduction & Grounded & Infer a gap from topic, keywords, and prior-work titles, then propose an idea for the gap. \\
+        \induction & Grounded & Infer a trend from prior-work titles and propose the next plausible research step. \\
+        \proposal & Grounded & Write a compact proposal with method, data, baselines, metrics, and ablations. \\
+        \outcome & Grounded & Imagine positive and negative outcomes before finalizing the idea. \\
+        \smallexperiment & Grounded & Use a real lexical metadata audit over prior-work titles before proposing the idea. \\
+        \litcompare & Grounded & Compare against each prior-work title and revise the idea to differentiate it. \\
+        \bottomrule
+    \end{tabular}
+    }
+    \caption{Matched prompt conditions. Every context receives one generated idea under each condition.}
+    \label{tab:prompt_conditions}
+\end{table}

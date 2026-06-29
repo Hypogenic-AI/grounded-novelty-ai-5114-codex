@@ -1,0 +1,699 @@
+[
+  {
+    "context_id": "aiidea_7942",
+    "source_index": 7942,
+    "topic": "the generalized linear contextual bandit problem under limited adaptivity constraints",
+    "keywords": [
+      "generalized linear contextual bandit",
+      "limited adaptivity",
+      "algorithmic efficiency",
+      "contextual information",
+      "regret minimization"
+    ],
+    "prior_work_titles": [
+      "Linear bandits with limited adaptivity and learning distributional optimal design",
+      "Improved algorithms for linear stochastic bandits",
+      "Instance-wise minimax-optimal algorithms for logistic bandits",
+      "Improved optimistic algorithms for logistic bandits",
+      "Parametric bandits: The generalized linear case"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "bandits",
+        "linear",
+        "algorithms",
+        "improved",
+        "logistic",
+        "limited",
+        "adaptivity",
+        "distributional"
+      ],
+      "repeated_prior_work_terms": [
+        "bandits",
+        "linear",
+        "algorithms",
+        "improved",
+        "logistic"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "algorithmic",
+        "bandit",
+        "constraints",
+        "contextual",
+        "efficiency",
+        "information",
+        "minimization",
+        "problem"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 17
+    }
+  },
+  {
+    "context_id": "aiidea_10241",
+    "source_index": 10241,
+    "topic": "multi-objective alignment in large language models",
+    "keywords": [
+      "alignment",
+      "multi-objective",
+      "large language models",
+      "human values",
+      "trade-offs"
+    ],
+    "prior_work_titles": [
+      "Training language models to follow instructions with human feedback",
+      "Ultrafeedback: Boosting language models with high-quality feedback",
+      "Direct preference optimization: Your language model is secretly a reward model",
+      "Scalable agent alignment via reward modeling: a research direction",
+      "Xstest: A test suite for identifying exaggerated safety behaviours in large language models"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "language",
+        "feedback",
+        "reward",
+        "training",
+        "follow",
+        "instructions",
+        "human",
+        "ultrafeedback"
+      ],
+      "repeated_prior_work_terms": [
+        "language",
+        "feedback",
+        "reward"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "multi-objective",
+        "trade-offs",
+        "values"
+      ],
+      "mechanism_terms_already_present": [
+        "agent",
+        "alignment",
+        "feedback"
+      ],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "metric",
+        "robustness",
+        "simulation"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 28
+    }
+  },
+  {
+    "context_id": "aiidea_1434",
+    "source_index": 1434,
+    "topic": "deformable image registration using a Hierarchical Vision Transformer",
+    "keywords": [
+      "Deformable Image Registration",
+      "Hierarchical Vision Transformer",
+      "Image Alignment",
+      "Medical Imaging",
+      "Transformer Architecture"
+    ],
+    "prior_work_titles": [
+      "Voxelmorph: a learning framework for deformable medical image registration",
+      "Transmorph: Transformer for unsupervised medical image registration",
+      "Cyclemorph: cycle consistent unsupervised deformable image registration",
+      "An unsupervised learning model for deformable medical image registration",
+      "Pyramid vision transformer: A versatile backbone for dense prediction without convolutions"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "image",
+        "registration",
+        "deformable",
+        "medical",
+        "unsupervised",
+        "transformer",
+        "voxelmorph",
+        "framework"
+      ],
+      "repeated_prior_work_terms": [
+        "image",
+        "registration",
+        "deformable",
+        "medical",
+        "unsupervised",
+        "transformer"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "alignment",
+        "architecture",
+        "hierarchical",
+        "imaging"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 20
+    }
+  },
+  {
+    "context_id": "aiidea_8747",
+    "source_index": 8747,
+    "topic": "autonomous task-oriented dialogue systems",
+    "keywords": [
+      "Autonomous Systems",
+      "Task-Oriented Dialogue",
+      "Natural Language Processing",
+      "Machine Learning",
+      "User Interaction"
+    ],
+    "prior_work_titles": [
+      "MultiWOZ -a largescale multi-domain Wizard-of-Oz dataset for taskoriented dialogue modelling",
+      "Oh my mistake!: Toward realistic dialogue state tracking including turnback utterances",
+      "Multi-task pre-training for plug-and-play task-oriented dialogue system",
+      "Ubar: Towards fully end-to-end task-oriented dialog systems with gpt-2",
+      "React: Synergizing reasoning and acting in language models"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "dialogue",
+        "task-oriented",
+        "multiwoz",
+        "largescale",
+        "multi-domain",
+        "wizard-of-oz",
+        "dataset",
+        "taskoriented"
+      ],
+      "repeated_prior_work_terms": [
+        "dialogue",
+        "task-oriented"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "autonomous",
+        "interaction",
+        "machine",
+        "natural",
+        "processing",
+        "user"
+      ],
+      "mechanism_terms_already_present": [
+        "reasoning"
+      ],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness",
+        "simulation"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 31
+    }
+  },
+  {
+    "context_id": "aiidea_6161",
+    "source_index": 6161,
+    "topic": "empirical measures for auditing label privatization mechanisms",
+    "keywords": [
+      "label privatization",
+      "empirical measures",
+      "auditing",
+      "privacy mechanisms",
+      "label anonymization"
+    ],
+    "prior_work_titles": [
+      "Does label differential privacy prevent label inference attacks",
+      "Reconstructing training data with informed adversaries",
+      "Measuring re-identification risk",
+      "Label differential privacy and private training data release",
+      "Randomized response: A survey technique for eliminating evasive answer bias"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "label",
+        "differential",
+        "privacy",
+        "training",
+        "data",
+        "does",
+        "prevent",
+        "inference"
+      ],
+      "repeated_prior_work_terms": [
+        "label",
+        "differential",
+        "privacy",
+        "training",
+        "data"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "anonymization",
+        "auditing",
+        "empirical",
+        "measures",
+        "mechanisms",
+        "privatization"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 25
+    }
+  },
+  {
+    "context_id": "aiidea_10508",
+    "source_index": 10508,
+    "topic": "developing a Chinese multi-domain task-oriented dialogue system",
+    "keywords": [
+      "Chinese",
+      "multi-domain",
+      "task-oriented",
+      "dialogue system"
+    ],
+    "prior_work_titles": [
+      "Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases",
+      "The Second Dialog State Tracking Challenge",
+      "End-to-End Task-Completion Neural Dialogue Systems",
+      "MinTL: Minimalist Transfer Learning for Task-Oriented Dialogue Systems",
+      "Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "dialogue",
+        "task-completion",
+        "systems",
+        "exploring",
+        "impact",
+        "instruction",
+        "data",
+        "scaling"
+      ],
+      "repeated_prior_work_terms": [
+        "dialogue",
+        "task-completion",
+        "systems"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "chinese",
+        "developing",
+        "multi-domain",
+        "system"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 28
+    }
+  },
+  {
+    "context_id": "aiidea_13",
+    "source_index": 13,
+    "topic": "3D language field modeling",
+    "keywords": [
+      "3D modeling",
+      "language field",
+      "spatial representation",
+      "linguistic data",
+      "computational modeling"
+    ],
+    "prior_work_titles": [
+      "3d gaussian splatting for real-time radiance field rendering",
+      "Lerf: Language embedded radiance fields",
+      "Segment anything",
+      "Weakly supervised 3d openvocabulary segmentation",
+      "Contrastive lift: 3d object instance segmentation by slow-fast contrastive fusion"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "radiance",
+        "segmentation",
+        "contrastive",
+        "gaussian",
+        "splatting",
+        "real-time",
+        "field",
+        "rendering"
+      ],
+      "repeated_prior_work_terms": [
+        "radiance",
+        "segmentation",
+        "contrastive"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "computational",
+        "data",
+        "linguistic",
+        "modeling",
+        "representation",
+        "spatial"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 22
+    }
+  },
+  {
+    "context_id": "aiidea_10815",
+    "source_index": 10815,
+    "topic": "enhancing decision-making in Large Language Models",
+    "keywords": [
+      "Decision-Making",
+      "Large Language Models",
+      "Enhancement",
+      "AI Algorithms",
+      "Model Training"
+    ],
+    "prior_work_titles": [
+      "React: Synergizing reasoning and acting in language models",
+      "Improving language models by retrieving from trillions of tokens",
+      "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "Generalization through memorization: Nearest neighbor language models",
+      "Interleaving retrieval with chain-of-thought reasoning for knowledgeintensive multi-step questions"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "language",
+        "reasoning",
+        "react",
+        "synergizing",
+        "acting",
+        "improving",
+        "retrieving",
+        "trillions"
+      ],
+      "repeated_prior_work_terms": [
+        "language",
+        "reasoning"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "algorithms",
+        "decision-making",
+        "enhancement",
+        "enhancing",
+        "training"
+      ],
+      "mechanism_terms_already_present": [
+        "reasoning",
+        "retrieval"
+      ],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 25
+    }
+  },
+  {
+    "context_id": "aiidea_8753",
+    "source_index": 8753,
+    "topic": "how language models evaluate the convincingness of conflicting evidence",
+    "keywords": [
+      "language models",
+      "convincingness",
+      "conflicting evidence",
+      "evaluation"
+    ],
+    "prior_work_titles": [
+      "Dense passage retrieval for open-domain question answering",
+      "Language models are few-shot learners",
+      "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "WebGPT: Browser-assisted question-answering with human feedback",
+      "Toolformer: Language models can teach themselves to use tools"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "language",
+        "dense",
+        "passage",
+        "retrieval",
+        "open-domain",
+        "question",
+        "answering",
+        "few-shot"
+      ],
+      "repeated_prior_work_terms": [
+        "language"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "conflicting",
+        "convincingness",
+        "evaluate",
+        "evaluation",
+        "evidence",
+        "how"
+      ],
+      "mechanism_terms_already_present": [
+        "feedback",
+        "retrieval"
+      ],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "metric",
+        "robustness",
+        "simulation"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 26
+    }
+  },
+  {
+    "context_id": "aiidea_3459",
+    "source_index": 3459,
+    "topic": "improving efficiency in long-sequence inference for large language models",
+    "keywords": [
+      "Long-sequence inference",
+      "Large language models",
+      "Efficiency improvement",
+      "Inference optimization",
+      "Sequence length"
+    ],
+    "prior_work_titles": [
+      "Longlora: Efficient fine-tuning of long-context large language models",
+      "Flashattention-2: Faster attention with better parallelism and work partitioning",
+      "Big bird: Transformers for longer sequences",
+      "H2O: heavy-hitter oracle for efficient generative inference of large language models",
+      "Effective long-context scaling of foundation models"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "efficient",
+        "long-context",
+        "language",
+        "longlora",
+        "fine-tuning",
+        "flashattention-2",
+        "faster",
+        "attention"
+      ],
+      "repeated_prior_work_terms": [
+        "efficient",
+        "long-context",
+        "language"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "efficiency",
+        "improvement",
+        "improving",
+        "length",
+        "long-sequence",
+        "optimization",
+        "sequence"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 25
+    }
+  },
+  {
+    "context_id": "aiidea_10686",
+    "source_index": 10686,
+    "topic": "mitigating bias in question answering models",
+    "keywords": [
+      "Bias Mitigation",
+      "Question Answering Models",
+      "Fairness",
+      "Machine Learning Ethics",
+      "Algorithmic Bias"
+    ],
+    "prior_work_titles": [
+      "BBQ: A hand-built bias benchmark for question answering",
+      "UNQOVERing stereotyping biases via underspecified questions",
+      "Towards understanding gender bias in relation extraction",
+      "Gender bias in coreference resolution",
+      "Towards Controllable Biases in Language Generation"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "bias",
+        "biases",
+        "gender",
+        "bbq",
+        "hand-built",
+        "benchmark",
+        "question",
+        "answering"
+      ],
+      "repeated_prior_work_terms": [
+        "bias",
+        "biases",
+        "gender"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "algorithmic",
+        "dataset",
+        "debiasing",
+        "ethics",
+        "evaluation",
+        "fairness",
+        "machine",
+        "metrics"
+      ],
+      "mechanism_terms_already_present": [],
+      "missing_evaluation_cues": [
+        "ablation",
+        "causal",
+        "dataset",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness",
+        "simulation"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 20
+    }
+  },
+  {
+    "context_id": "aiidea_8868",
+    "source_index": 8868,
+    "topic": "semantics discovery in multimodal data",
+    "keywords": [
+      "semantics discovery",
+      "multimodal data",
+      "data fusion",
+      "feature extraction",
+      "machine learning"
+    ],
+    "prior_work_titles": [
+      "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "A simple framework for contrastive learning of visual representations",
+      "MELD: A multimodal multi-party dataset for emotion recognition in conversations",
+      "A clustering framework for unsupervised and semi-supervised new intent discovery",
+      "Deep clustering for unsupervised learning of visual features"
+    ],
+    "audit": {
+      "top_prior_work_terms": [
+        "framework",
+        "visual",
+        "clustering",
+        "unsupervised",
+        "bert",
+        "pre-training",
+        "bidirectional",
+        "transformers"
+      ],
+      "repeated_prior_work_terms": [
+        "framework",
+        "visual",
+        "clustering",
+        "unsupervised"
+      ],
+      "topic_terms_underrepresented_in_titles": [
+        "data",
+        "extraction",
+        "feature",
+        "fusion",
+        "machine",
+        "semantics"
+      ],
+      "mechanism_terms_already_present": [
+        "multimodal"
+      ],
+      "missing_evaluation_cues": [
+        "ablation",
+        "benchmark",
+        "causal",
+        "evaluation",
+        "human",
+        "metric",
+        "robustness",
+        "simulation"
+      ],
+      "n_prior_titles": 5,
+      "n_unique_title_terms": 25
+    }
+  }
+]

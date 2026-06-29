@@ -1,0 +1,5 @@
+# Keep cloned repositories local unless explicitly added.
+*
+
+!.gitignore
+!README.md

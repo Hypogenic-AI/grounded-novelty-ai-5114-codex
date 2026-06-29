@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    "ungrounded",
+    "deduction",
+    "induction",
+    "proposal",
+    "outcome_imagination",
+    "small_experiment",
+    "literature_comparison"
+  ],
+  "idea_schema": {
+    "title": "short title",
+    "problem": "specific research problem",
+    "proposed_method": "concrete method, model, or system",
+    "grounding_used": "how the idea used the provided grounding",
+    "experiment_plan": "datasets, baselines, metrics, and ablations",
+    "expected_outcome": "what result would support the idea",
+    "risk_and_mitigation": "main risk and practical mitigation",
+    "why_novel": "why this differs from the listed prior work",
+    "feasibility_notes": "resources needed and why feasible"
+  },
+  "generation_model": "openai/gpt-4.1-mini",
+  "judge_model": "google/gemini-2.5-flash"
+}
